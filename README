@@ -1,0 +1,11 @@
+Here we report a computational procedure based on support vector machine (SVM) models and ChIP-seq data to determine the optimal number of histone marks necessary for the genome-wide identification of cis-regulatory elements. The method first defines the optimal set of histone modifications for the prediction of regulatory elements and then uses this optimal set to identify enhancers. SVM models have been designed, trained and tested on public available ChIP-seq data of 9 different cell lines and 8 histone modifications obtained from ENCODE (http://genome.ucsc.edu/ENCODE) and Gene Expression Omnibus (GSE26230).
+
+Copyright
+---------
+
+Installation
+------------
+
+This package should be installed using the `R CMD INSTALL' mechanism, see
+the R online help or R manuals for details on how to install packages.
+

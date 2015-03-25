@@ -1,0 +1,13 @@
+Package: SVM2CRM
+Type:Package
+Title: SVM2CRM: support vector machine for cis-regulatory elements detections
+Version: 0.99.1
+Date: 2014-03-30
+Description: Detection of cis-regulatory elements using svm implemented in LiblineaR. 
+Author: Guidantonio Malagoli Tagliazucchi <guidantonio.malagolitagliazucchi@unimore.it>
+License: GPL-3
+Depends: R (>= 3.2.0), LiblineaR, SVM2CRMdata 
+Imports: AnnotationDbi, mclust, GenomicRanges, IRanges, zoo, squash, pls,rtracklayer,ROCR,verification
+biocViews: ChIPSeq, SupportVectorMachine, Software, Preprocessing, ChipOnChip
+Maintainer: Guidantonio Malagoli Tagliazucchi <guidantonio.malagolitagliazucchi@unimore.it>
+Packaged: 2012-11-1 16:20:00 UTC; guidantonio
